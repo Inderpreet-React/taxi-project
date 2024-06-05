@@ -1,5 +1,3 @@
-//key: "AIzaSyAdQXU3eRdihBwLvweY47GyyL8nBC3Dv6c"
-
 import React from "react";
 import GoogleMapReact from "google-map-react";
 import { Container, Row, Col, Table } from "react-bootstrap";
@@ -53,7 +51,7 @@ const MapComponent = ({ pickupLocation, dropoffLocation }) => {
       <div style={{ height: "400px", width: "100%", marginTop: "20px" }}>
         <GoogleMapReact
           bootstrapURLKeys={{
-            key: "AIzaSyAdQXU3eRdihBwLvweY47GyyL8nBC3Dv6c",
+            key: "Add the Key", // Please add the key
           }}
           defaultCenter={defaultProps.center}
           defaultZoom={defaultProps.zoom}
